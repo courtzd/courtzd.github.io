@@ -1,10 +1,95 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>My blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courtz World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
   </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0px;
+    }
+    header {
+      background-color: #1cbabc;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      font-family: 'Anton', sans-serif;
+    }
+
+    h4 {
+      font-family: Arial;
+    }
+
+    .flex-container {
+      display: flex;
+    }
+    .left {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      padding: 20px;
+    }
+    .box {
+      background-color: #ce5973;
+      padding: 200px;
+      text-align: center;
+    }
+    .right {
+      font-family: monospace;
+      background-color: #1cbabc;
+      color: #fff;
+      padding: 0px;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 50px;
+    }
+  </style>
+
   <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1>
-    <p>This is the beginning of my website home page.</p>
-    <p>It will eventually contain a list of links to all my blogs.</p>
+    <header>
+      <h1>Midlife Coding Confessions</h1>
+      <h4>
+        >> This is the beginning of my website home page. It will eventually
+        contain a list of links to all my blogs.<<
+      </h4>
+    </header>
+    <div class="flex-container">
+      <div class="left">
+        <div class="box">
+          <img
+            src="Dev Academy/courtzd.github.io/images/courtz.png"
+            alt="Courtz Avatar"
+          />
+
+          <p>About me</p>
+        </div>
+        <div class="box">Blog</div>
+        <div class="box">Contact Me</div>
+        <div class="box">Find Me Online</div>
+      </div>
+      <div class="right">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+    </div>
   </body>
 </html>
