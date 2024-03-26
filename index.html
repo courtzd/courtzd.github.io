@@ -10,86 +10,82 @@
       href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
-  <style>
-    body {
-      margin: 0;
-      padding: 0px;
-    }
-    header {
-      background-color: #1cbabc;
-      color: #fff;
-      text-align: center;
-      padding: 10px 0;
-      font-family: 'Anton', sans-serif;
-    }
-
-    h4 {
-      font-family: Arial;
-    }
-
-    .flex-container {
-      display: flex;
-    }
-    .left {
-      flex: 1;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 20px;
-      padding: 20px;
-    }
-    .box {
-      background-color: #ce5973;
-      padding: 200px;
-      text-align: center;
-    }
-    .right {
-      font-family: monospace;
-      background-color: #1cbabc;
-      color: #fff;
-      padding: 0px;
-    }
-    nav {
-      display: flex;
-      flex-direction: column;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      padding: 50px;
-    }
-  </style>
 
   <body>
+    <header id="topbar"></header>
     <header>
+      
+     
       <h1>Midlife Coding Confessions</h1>
       <h4>
         >> This is the beginning of my website home page. It will eventually
         contain a list of links to all my blogs.<<
       </h4>
+      <nav>
+        <ul>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="https://courtzd.github.io/blog/te-houtaewa-template.html">Blog</a>
+          <a href="#">Contact</a>
+        </ul>
+      </nav>
     </header>
+
+
+    <div class="row">
+      <div class="side">
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        
+        <p>Kina lover, Unapologetically Māori, Gamer Mum, Geek and Lover of life, </p>
+        <h3>More Text</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <div class="fakeimg" style="height:60px;">Image</div><br>
+        <div class="fakeimg" style="height:60px;">Image</div><br>
+        <div class="fakeimg" style="height:60px;">Image</div>
+      </div>
+      <div class="main">
+        <h2>Latest Blog Post</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <br>
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </div>
+    </div>
+
     <div class="flex-container">
       <div class="left">
         <div class="box">
-          <img
-            src="Dev Academy/courtzd.github.io/images/courtz.png"
-            alt="Courtz Avatar"
-          />
-
-          <p>About me</p>
+          <h2>About Me</h2>
+          <p>
+            Kina lover, Unapologetically Māori, Gamer mum, geek and lover of life.
+            <div class="image" style="height:200px;">Image</div>
+          </p>
         </div>
-        <div class="box">Blog</div>
-        <div class="box">Contact Me</div>
-        <div class="box">Find Me Online</div>
-      </div>
-      <div class="right">
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
-        </nav>
+
       </div>
     </div>
+    <div class="box"><h2>Latest Blogs</h2></div>
+  </div>
+      <div class="right"></div>
+    </div>
+
+
+    <div class="container">
+      <div class="box1">Box 1</div>
+      <div class="box1">Box 2</div>
+      <div class="box1">Box 3</div>
+    </div>
+
+
+
   </body>
 </html>
