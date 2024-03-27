@@ -15,13 +15,13 @@ header {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 5vw;
   text-shadow: 0 2px 4px #ffffff;
   margin: 0;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 2.5vw;
   font-family: 'Anton', sans-serif;
   text-shadow: 1px 1px 1px #000000;
 }
@@ -29,7 +29,7 @@ h2 {
 h4 {
   font-family: Arial;
   color: #332f3e;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 p {
@@ -53,7 +53,7 @@ nav {
 nav a {
   color: #332f3e;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.5vw;
   padding: 10px 20px;
 }
 
@@ -64,28 +64,41 @@ nav a:hover {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  column-gap: 50px;
+  column-gap: 2vw;
 }
 
 .side {
-  flex: 0;
+  flex: 1;
   background-color: #e6c973;
-  padding: 1px; /* Add padding to center the image */
+  padding: 1vw;
   text-align: center;
-  width: 300px;
-  border-radius: 80px;
+  border-radius: 10vw;
 }
 
 .side img {
-  max-width: 100%; /* Ensure the image fits inside the container */
-  border-radius: 300%; /* Make the image round */
+  max-width: 100%;
+  border-radius: 50%;
 }
 
 .main {
   flex: 3;
   background-color: #4db788;
-  padding: 20px;
-  border-radius: 80px;
+  padding: 2vw;
+  border-radius: 10vw;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    column-gap: 0;
+  }
+  .side,
+  .main {
+    width: 100%;
+    border-radius: 0;
+    padding: 5vw;
+  }
 }
