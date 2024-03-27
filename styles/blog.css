@@ -1,0 +1,37 @@
+<style > body {
+  margin: 0;
+  padding: 0;
+  background-color: #332f3e;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+header {
+  color: #332f3e;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Anton', sans-serif;
+  box-shadow: 0 10px 10px -5px #000;
+}
+
+h1 {
+  font-size: 70px;
+  text-shadow: 0 2px 4px #ffffff;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+h4 {
+  font-family: Arial;
+  color: #332f3e;
+  font-size: 20px;
+}
+
+p {
+  font-family: Arial;
+}
