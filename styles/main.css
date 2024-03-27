@@ -71,11 +71,16 @@ nav a:hover {
 .side {
   flex: 1;
   background-color: #e6c973;
-  padding: 0px;
+  padding: 20px; /* Add padding to center the image */
   text-align: center;
   width: 300px;
   border-radius: 80px;
   box-shadow: 10px 0 10px -5px #000;
+}
+
+.side img {
+  max-width: 100%; /* Ensure the image fits inside the container */
+  border-radius: 50%; /* Make the image round */
 }
 
 .main {
