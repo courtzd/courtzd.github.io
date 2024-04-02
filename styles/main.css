@@ -137,3 +137,14 @@ nav a:hover {
     padding: 5vw;
   }
 }
+
+.bullet-list {
+  list-style-type: square;
+  font-family: monospace;
+  color: #ffffff;
+  font-size: 2vw;
+}
+
+.bullet-list li {
+  margin-bottom: 10px;
+}
