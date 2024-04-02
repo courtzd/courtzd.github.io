@@ -36,9 +36,15 @@ h4 {
   font-size: 1.5vw;
 }
 
+h5 {
+  font-family: monospace;
+  color: #fadb7df8;
+  font-size: 1.5vw;
+}
+
 p {
   font-family: monospace;
-  color: #5f1414;
+  color: #ffffff;
   font-size: 2vw;
 }
 
