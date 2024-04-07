@@ -138,13 +138,13 @@ nav a:hover {
   }
 }
 
-.bullet-list {
-  list-style-type: square;
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
   font-family: monospace;
   color: #ffffff;
   font-size: 2vw;
-}
-
-.bullet-list li {
-  margin-bottom: 10px;
 }
