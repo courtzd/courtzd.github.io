@@ -148,3 +148,29 @@ li {
   color: #ffffff;
   font-size: 2vw;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+th {
+  background-color: #4db788;
+}
+
+tr:nth-child(even) {
+  background-color: #1c6804;
+}
+
+tr:nth-child(odd) {
+  background-color: #3a9406;
+}
